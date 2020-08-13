@@ -1,14 +1,33 @@
 
-.Crearusuario ion-icon{
-    color: #428cff; 
-  }
+ .encabezado{
+        width: 45px;
+        height: 55px;
+        margin-top: 10px;
   
+}
 .Guardar {
   
-    font-size: 15px;
+    font-size: 18px;
     background-color: #428cff;
-    padding: 5px 5px;
-    color: white; 
+    //padding: 5px 5px;
+    color: black; 
     border-radius: 7px;
-  
+    margin-top: 15px;
   }
+
+  .menu{
+    --background: linear-gradient(to top, rgb(132, 179, 255) 0%, #fff 100%);
+  }
+  
+  ion-item{
+    --background: transparentize($color: #000000, $amount: 0);
+  }
+  .pie{
+    font-size: 10px;
+    color: black;
+}
+.piefondo{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
