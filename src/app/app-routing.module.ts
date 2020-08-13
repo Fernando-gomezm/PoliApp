@@ -22,7 +22,11 @@ const routes: Routes = [
   {
     path: 'q-somos',
     loadChildren: () => import('./q-somos/q-somos.module').then( m => m.QSomosPageModule)
-  }
+  },
+  {
+    path: 'videos',
+    loadChildren: () => import('./videos/videos.module').then( m => m.VideosPageModule)
+  },
 ];
 
 @NgModule({

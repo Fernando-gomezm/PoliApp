@@ -16,17 +16,17 @@ export class AppComponent implements OnInit {
     
     {
       title: 'Perfil',
-      url: '/',
+      url: 'login',
       icon: 'body'
     },
     {
       title: 'Clases',
-      url: '/folder/Spam',
+      url: 'login',
       icon: 'book'
     },
     {
       title: 'Videos',
-      url: '/folder/Favorites',
+      url: 'videos',
       icon: 'film'
     },
     {
