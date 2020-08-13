@@ -1,45 +1,44 @@
-.head {
-  padding: 20px; 
-  background-color: #428cff;
-}
-.head h1 {
-  text-align: center; 
-  color: white;
-}
-.skew-arriba{
-  bottom: 0;
-  left:0;
-  border-width:  0 0 10vh  100vw ;
-  border-style: solid;
-  border-color: transparent #428cff ;
-}
-.skew-abajo{
-  position: absolute;
-  bottom: 0;
-  left:0;
-  border-width:  0 0 10vh  100vw ;
-  border-style: solid;
-  border-color: transparent transparent #428cff transparent ;
-}
-.Crearusuario {
+ion-title{
+  text-align: center;
   margin-top: 20px;
 }
-.Crearusuario ion-icon{
-    color: #428cff; 
-  }
-.Guardar {
-    margin-top: 20px;
-    font-size: 17px;
-    background-color: #428cff;
-    padding: 5px 5px;
-    color: white; 
-    border-radius: 7px;
+ion-header img {
+  float:right;
+}
+
+ .encabezado{
+        width: 45px;
+        height: 55px;
+        margin-top: 10px;
   
+}
+  .menu{
+    --background: linear-gradient(to top, rgb(132, 179, 255) 0%, #fff 100%);
   }
-  .Guardar:hover{
-    border: 1px solid #428cff;
-    background-color: white;
-    color: #428cff;
+  
+  ion-item{
+    --background: transparentize($color: #000000, $amount: 0);
   }
+  .pie{
+    font-size: 10px;
+    color: black;
+}
+.piefondo{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+.Guardar {
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: #428cff;
+  padding: 10px 10px;
+  color: white; 
+  border-radius: 4px;
 
-
+}
+.Guardar:hover{
+  border: 1px solid #428cff;
+  background-color: white;
+  color: #428cff;
+}

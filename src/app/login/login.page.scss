@@ -1,4 +1,10 @@
-
+    ion-title{
+        text-align: center;
+        margin-top: 20px;
+    }
+    ion-header img {
+        float:right;
+    }
     ion-item{
         --background: transparentize($color: #000000, $amount: 0);
     
@@ -6,6 +12,7 @@
     ion-content.menu{
         --background: linear-gradient(to top, rgb(132, 179, 255) 0%, #fff 100%);
     }
+  
     .logo{
         margin-top: 20px;
         width: 150px;
@@ -25,4 +32,22 @@
         font-size: 10px;
         color: black;
     }
+    ion-content {
+        text-align: center;
+    }
+    a {
+        text-decoration: none; 
+    }
+    ion-row {
+        text-align: center;
+    }
+    .ingresar:hover {
+        border: 1px solid #428cff;
+        --background: white;
+        color: #428cff;
+    }
+
+
+
+
    
