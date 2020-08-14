@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'q-somos',
     loadChildren: () => import('./q-somos/q-somos.module').then( m => m.QSomosPageModule)
+  },
+  {
+    path: 'video',
+    loadChildren: () => import('./video/video.module').then( m => m.VideoPageModule)
   }
 ];
 
